@@ -21,7 +21,7 @@
         <a href="" class="logo site__logo link"><span class="site__logo-web">Web</span><span class="site__logo-studio">Studio</span></a>
         <nav class="navigation"> 
             <ul class="menu-list list"> 
-            <li class="menu-list__item"><a href="" class="menu-list__link link current">Студия</a></li>
+            <li class="menu-list__item"><a href="" class="menu-list__link menu-list__link--current link ">Студия</a></li>
             <li class="menu-list__item"><a href="./portfolio.html" class="menu-list__link link">Портфолио</a></li>
             <li class="menu-list__item"><a href="" class="menu-list__link link">Контакты</a></li>
         </ul>
@@ -385,15 +385,15 @@ required/>
     <!-- ----------Модальное окно--------- -->
     <div class="backdrop is-hidden" data-modal>
 <div class="modal">
-    <button type="button" class="modal-close-btn" data-modal-close>
+    <button type="button" class="modal__close-btn" data-modal-close>
         <svg width="11" height="11">
             <use href="./images/symbol-defs.svg#icon-Vector"></use>
         </svg>
     </button>
-    <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+    <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
     <form class="modal-form">
         <div class="modal-field">
-        <label class="modal-label" for="user-name">Имя</label>
+        <label class="modal-field__label" for="user-name">Имя</label>
 <div class="modal-input-wrap">
 <input 
 type="text" 
@@ -409,7 +409,7 @@ id="user-name"
 </div>
 </div>
 <div class="modal-field">
-<label class="modal-label" for="user-tel">Телефон</label>
+<label class="modal-field__label" for="user-tel">Телефон</label>
 <div class="modal-input-wrap">
 <input 
 type="tel" 
@@ -426,7 +426,7 @@ title="+380"/>
 </div>
 
  <div class="modal-field">
- <label class="modal-label" for="user-email">Почта</label>
+ <label class="modal-field__label" for="user-email">Почта</label>
  <div class="modal-input-wrap">
 <input 
 type="email" 
@@ -442,7 +442,7 @@ required/>
 </div>
 
 <div class="modal-field">
-    <label class="modal-label" for="user-text">Комментарий</label>
+    <label class="modal-field__label" for="user-text">Комментарий</label>
    <textarea 
    name="user-text" 
    id="user-text" 
