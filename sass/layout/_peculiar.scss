@@ -1,0 +1,40 @@
+.peculiar-list {
+    display: flex;
+  }
+  
+  .peculiar-list__item {
+    width: 270px;
+  }
+  
+  .peculiar-list__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .peculiar-group {
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .peculiar-group__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text);
+    margin-bottom: 10px;
+  }
+  
+  .peculiar-group__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-text);
+  }
+  
