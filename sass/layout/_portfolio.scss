@@ -1,138 +1,89 @@
-<section class="section">
-        <div class="conteiner">
-        <ul class="filtr-list list">
-            <li class="filtr-list__item"><button type="button" class="filtr-list__btn">Все</button></li>
-            <li class="filtr-list__item"><button type="button" class="filtr-list__btn">Веб-сайты</button></li>
-            <li class="filtr-list__item"><button type="button" class="filtr-list__btn">Приложения</button></li>
-            <li class="filtr-list__item"><button type="button" class="filtr-list__btn">Дизайн</button></li>
-            <li class="filtr-list__item"><button type="button" class="filtr-list__btn">Маркетинг</button></li>
-        </ul>
-        <ul class="portfolio-list list">
-            <li class="portfolio-list__item">
-                <a href="" class="portfolio-link link">
-                   <div class="portfolio-top-wrap">
-                    <img src="./images/Portfolio/portfolio-1.jpg" alt="portfolio-1" width="370" class="portfolio-top-wrap__image"> </img>
-                    <p class="portfolio-top-wrap__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                       </div> 
-                       <div class="title-group">
-                            <h2 class="title-group__top">Технокряк </h2>
-                        <p class="title-group__text">Веб-сайт</p>
-                   </div>
-                </a>
-            </li>   
-            <li class="portfolio-list__item">
-                <a href="" class="portfolio-link link">
-                    <div class="portfolio-top-wrap">
-                
-                    <img src="./images/Portfolio/portfolio-2.jpg" alt="portfolio-2" width="370" class="portfolio-top-wrap__image"> </img>
-                    <p class="portfolio-top-wrap__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>    
-                    </div>
-                    <div class="title-group">
-                            <h2 class="title-group__top">Постер New Orlean vs Golden Star</h2>
-                        <p class="title-group__text">Дизайн</p>
-                   </div>
-                </a>
-            </li>
-            <li class="portfolio-list__item">    
-                        
-           
-                <a href="" class="portfolio-link link">
-                    <div class="portfolio-top-wrap">
-                    <img src="./images/Portfolio/portfolio-3.jpg" alt="portfolio-3" width="370" class="portfolio-top-wrap__image"> </img>
-                    <p class="portfolio-top-wrap__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>    
-                    </div>
-                    <div class="title-group">
-                            <h2 class="title-group__top">Ресторан Seafood</h2>
-                        <p class="title-group__text">Приложение</p>   
-                   </div>
-                </a>
-            </li>
-            <li class="portfolio-list__item">     
-                        
-          
-                <a href="" class="portfolio-link link">
-                    <div class="portfolio-top-wrap">
-                    <img src="./images/Portfolio/portfolio-4.jpg" alt="portfolio-4" width="370" class="portfolio-top-wrap__image"></img>
-                    <p class="portfolio-top-wrap__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>    
-                    </div>
-                    <div class="title-group">
-                            <h2 class="title-group__top">
-                            Проект Prime
-                        </h2>
-                        <p class="title-group__text">Маркетинг</p>
-                    </div>
-                </a>
-            </li>
-            <li class="portfolio-list__item">
-                <a href="" class="portfolio-link link">
-                    <div class="portfolio-top-wrap">
-                    <img src="./images/Portfolio/portfolio-5.jpg" alt="portfolio-5" width="370" class="portfolio-top-wrap__image"></img>
-                    <p class="portfolio-top-wrap__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>    
-                    </div>
-                    <div class="title-group">
-                            <h2 class="title-group__top">
-                            Проект Boxes
-                        </h2>
-                        <p class="title-group__text">Приложение</p>
-                    </div>
-                </a>
-            </li>
-            <li class="portfolio-list__item">
-                <a href="" class="portfolio-link link">
-                    <div class="portfolio-top-wrap">
-                    <img src="./images/Portfolio/portfolio-6.jpg" alt="portfolio-6" width="370" class="portfolio-top-wrap__image"></img>
-                    <p class="portfolio-top-wrap__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>   
-                    </div>
-                    <div class="title-group"> 
-                           <h2 class="title-group__top">
-                            Inspiration has no Borders
-                        </h2>
-                        <p class="title-group__text">Веб-сайт</p>
-                    </div>
-                </a>
-            </li>
-            <li class="portfolio-list__item">
-                <a href="" class="portfolio-link link">
-                    <div class="portfolio-top-wrap">
-                    <img src="./images/Portfolio/portfolio-7.jpg" alt="portfolio-7" width="370" class="portfolio-top-wrap__image"></img>
-                    <p class="portfolio-top-wrap__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>    
-                    </div>
-                    <div class="title-group">
-                            <h2 class="title-group__top">
-                            Издание Limited Edition
-                        </h2>
-                        <p class="title-group__text">Дизайн</p>
-                    </div>
-                </a>
-            </li>
-            <li class="portfolio-list__item">
-                <a href="" class="portfolio-link link">
-                    <div class="portfolio-top-wrap">
-                    <img src="./images/Portfolio/portfolio-8.jpg" alt="portfolio-8" width="370" class="portfolio-top-wrap__image"></img>
-                    <p class="portfolio-top-wrap__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>    
-                    </div>
-                    <div class="title-group">
-                            <h2 class="title-group__top">
-                        Проект LAB
-                        </h2>
-                         <p class="title-group__text">Маркетинг</p>
-                    </div>
-                </a>
-            </li>
-            <li class="portfolio-list__item">
-                <a href="" class="portfolio-link link">
-                    <div class="portfolio-top-wrap">
-                    <img src="./images/Portfolio/portfolio-9.jpg" alt="portfolio-9" width="370" class="portfolio-top-wrap__image"> </img>
-                    <p class="portfolio-top-wrap__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>    
-                    </div>
-                    <div class="title-group">
-                            <h2 class="title-group__top">
-                            Growing Business
-                        </h2>
-                        <p class="title-group__text">Приложение</p>
-                   </div>
-                </a>
-            </li>
-        </ul>
-        </div>
-    </section>
+
+
+  
+  
+    .filtr-list__item:not(:last-child) {
+      margin-right: 8px;
+    }
+    
+    .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+  
+  .portfolio-list__item {
+    flex-basis: calc(100%/3 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+   }
+  
+  .portfolio-list__item:nth-child(3n) {
+    margin-right: 0;
+  }
+  
+  .portfolio-list__item:nth-last-child(-n+3) {
+    margin-bottom: 0;
+  }
+  
+   .portfolio-link:hover .portfolio-top-wrap__text,
+   .portfolio-link:focus .portfolio-top-wrap__text  {
+    transform: translateY(0%);
+   }
+  
+    .portfolio-link {
+      transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  
+  .portfolio-link:hover,
+  .portfolio-link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+   .portfolio-top-wrap {
+     position: relative;
+     overflow: hidden;
+   }
+  
+  .portfolio-top-wrap__text {
+      position: absolute;
+      top: 0;
+      background: rgba(33, 150, 243, 0.9);
+      color: var(--white);
+      width: 100%;
+      font-weight: 400;
+      padding: 63px 24px;
+      justify-content: center;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: auto;
+    }
+  
+  .title-group {
+    padding: 20px 24px;
+    border-right-width: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+  }
+  
+  .title-group__top {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+  
+  .title-group__text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--main-text);
+  }
+  
