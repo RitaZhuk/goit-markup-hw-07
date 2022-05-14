@@ -1,8 +1,6 @@
 .activity {
     padding-bottom: 94px;
-  }
-  
-  .activity__title {
+  &__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -11,21 +9,18 @@
     color: var(--text);
     margin-bottom: 50px;
   }
+}
   
   .activity-list {
     display: flex;
-    }
-  
-    .activity-list__item {
+    &__item {
       position: relative;
       width: 370px;
     }
-  
-  .activity-list__item:not(:last-child) {
+  &__item:not(:last-child) {
     margin-right: 30px;
   }
-  
-  .activity-list__title {
+&__title {
     position: absolute;
     display: block;
     justify-content: center;
@@ -43,4 +38,5 @@
   color: var(--white);
   background: rgba(47,48,58,0.8);
   }
+}
   

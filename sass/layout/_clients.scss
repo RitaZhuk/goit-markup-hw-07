@@ -11,6 +11,9 @@
   .clients-list {
     display: flex;
     justify-content: center;
+    &__item + &__item {
+    margin-left: 30px;
+  }
   }
   
   .clients-link {
@@ -21,22 +24,17 @@
     align-items: center;
     border: 1px solid #AFB1B8;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-  
-  .clients-link:hover,
-  .clients-link:focus {
+    &:focus, &:hover {
     border: 1px solid var(--accent);
-  }
-  
-  .clients-link:focus .clients-link__img,
-  .clients-link:hover .clients-link__img {
-      fill: var(--accent);
-    }
-  
-  .clients-list__item + .clients-list__item {
-    margin-left: 30px;
-  }
-    .clients-link__img {
+    &__img {
       fill: #AFB1B8;
       transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .clients-link:focus &,
+  .clients-link:hover & {
+      fill: var(--accent);
+    }}
+  }
     }
+  
+  
+  

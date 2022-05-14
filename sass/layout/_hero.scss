@@ -10,10 +10,7 @@
     background-repeat: no-repeat;
     max-width: 1600px;
     margin: 0 auto;
-    }
-  
-  
-  .hero__title-text {
+    &__title-text {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -26,7 +23,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-  }
+  }}
   
   .mane__btn {
     font-family: inherit;
@@ -45,10 +42,8 @@
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .main__btn:hover,
-  .main__btn:focus {
+    &:hover, &:focus {
     color: var(--accent);
+  }
   }
   

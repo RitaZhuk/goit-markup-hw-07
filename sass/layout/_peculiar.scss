@@ -1,14 +1,11 @@
 .peculiar-list {
     display: flex;
-  }
-  
-  .peculiar-list__item {
+  &__item {
     width: 270px;
-  }
-  
-  .peculiar-list__item:not(:last-child) {
+  &:not(:last-child) {
     margin-right: 30px;
-  }
+  }}
+}
   
   .peculiar-group {
     width: 270px;
@@ -19,9 +16,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-  }
-  
-  .peculiar-group__title {
+  &__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -30,11 +25,11 @@
     color: var(--text);
     margin-bottom: 10px;
   }
-  
-  .peculiar-group__text {
+&__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--main-text);
   }
+}
   

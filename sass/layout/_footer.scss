@@ -2,15 +2,11 @@
     background-color: var(--background);
     padding-top: 60px;
     padding-bottom: 60px;
-    
+    .conteiner {
+      display: flex;
+      align-items: baseline;
+    }
   }
-  
-  .contacts .conteiner {
-    display: flex;
-    align-items: baseline;
-  }
-  
-  
   
   .contacts-link__web {
     font-family: "Raleway";
@@ -19,15 +15,14 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent);
-  }
-  
-  .contacts-link__studio {
+    &__studio {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--white);
+  }
   }
   
   .contacts-adress {
@@ -36,15 +31,14 @@
   
   .contacts-list {
     display: block;
+    &__item + &__item {
+      margin-top: 9px;
+    }
   }
   
   .contacts-link {
     display: block;
     margin-bottom: 20px;
-  }
-  
-  .contacts-list .contacts-list__item+.contacts-list__item {
-    margin-top: 9px;
   }
   
   .contacts-link-adress {
@@ -63,11 +57,9 @@
     letter-spacing: 0.03em;
     color: var(--footer-mail);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .contacts-link-mail:hover,
-  .contacts-link-tel:hover{
+  &:hover, &:focus{
     color: var(--accent);
+  }
   }
   
   .contacts-link-tel {
@@ -77,15 +69,15 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, &:focus{
+      color: var(--accent);
+    }
   }
   /* ---Присоединяйтесь--- */
   
   .contacts-soc {
     margin-left: auto;
-   
-  }
-  
-  .contacts-soc__title {
+    &__title {
     font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -93,14 +85,14 @@
   color: var(--white);
   margin-bottom: 20px;
   }
+   }
   
   .contacts-soc-list {
     display: flex;
     justify-content: center;
-  }
-  
-  .contacts-soc-list__item + .contacts-soc-list__item {
+    &__item + &__item {
     margin-left: 10px;
+  }
   }
   
   .contacts-soc-link {
@@ -112,19 +104,16 @@
     justify-content: center;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &__icon {
+    fill: var(--white);
   }
-  
-  .contacts-soc-link:hover, 
-  .contacts-soc-link:focus {
+  &:hover 
+  {&__icon {
+    fill: var(--white);
+  }
+  &:focus {
     background-color: var(--accent);
   }
-  
-  .contacts-soc-link:hover .contacts-soc-link__icon {
-    fill: var(--white);
-  }
-  
-  .contacts-soc-link__icon {
-    fill: var(--white);
   }
   
   /* ----- Футер Подписка------ */
@@ -158,9 +147,7 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
-  }
-  
-  .subscription-input::placeholder {
+  &::placeholder{
     font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -168,7 +155,7 @@
   align-items: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  
+  }
   }
   
   .subscription-btn {
