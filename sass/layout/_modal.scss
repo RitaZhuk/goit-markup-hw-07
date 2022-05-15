@@ -42,11 +42,8 @@
   }
   }
 &__title {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+  @include font{20px, 1.15, 700, 0.03em}
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 12px;
   }
@@ -93,13 +90,10 @@
   }}
   
   .modal-field__label {
+    @include font{12px, 1.17, 400, 0.01em}
   display: block;
   text-align: left;
   margin-bottom: 4px;
-    font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
   color: #757575;
   }
 
@@ -141,10 +135,7 @@
   }
   
   .check-text {
-    font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+    @include font{14px, 1.71, 400, 0.03em}
   color: #757575;
   display: flex;
   align-items: center;
@@ -170,10 +161,7 @@
   }
   
   .treaty {
-    font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+    @include font{14px, 1.71, 400, 0.03em}
   text-decoration-line: underline;
   color: var(--accent);
   padding-left: 4px;

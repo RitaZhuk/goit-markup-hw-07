@@ -9,11 +9,8 @@
   }
   
   .contacts-link__web {
+    @include font{26px, 1.19, 700, 0.03em}
     font-family: "Raleway";
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
     color: var(--accent);
     &__studio {
     font-family: "Raleway";
@@ -42,19 +39,13 @@
   }
   
   .contacts-link-adress {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include font{14px, 1.71, 400, 0.03em}
     color: #FFFFFF;
   }
   
   .contacts-link-mail {
+    @include font{14px, 1.71, 400, 0.03em}
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--footer-mail);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover, &:focus{
@@ -63,10 +54,7 @@
   }
   
   .contacts-link-tel {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include font{14px, 1.71, 400, 0.03em}
     color: rgba(255, 255, 255, 0.6);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover, &:focus{
@@ -78,9 +66,7 @@
   .contacts-soc {
     margin-left: auto;
     &__title {
-    font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+      @include font{14px, 1.14, null, 0.03em}
   text-transform: uppercase;
   color: var(--white);
   margin-bottom: 20px;
@@ -127,10 +113,7 @@
   }
   
   .thumb-text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+    @include font{14px, 1.14, 700, 0.03em}
   text-transform: uppercase;
   color: #FFFFFF;
   }
@@ -148,12 +131,9 @@
   border-radius: 4px;
   background-color: transparent;
   &::placeholder{
-    font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
+    @include font{16px, 1.25, 400, 0.03em}
   display: flex;
   align-items: center;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   }
   }
